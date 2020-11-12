@@ -4,11 +4,11 @@
 #include <stdio.h>
 
 // time in [ms] of a simulation step
-#define TIME_STEP 1
+#define TIME_STEP 1 //改善の余地あり
 
 #define MAX_BUFFER_SIZE 256
 #define KP 0.03
-#define KD 0.008
+#define KD 0.008 //ゲインテキトー
 
 // entree point of the controller
 int main(int argc, char **argv) {
